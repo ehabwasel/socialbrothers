@@ -150,3 +150,6 @@ ul li a:hover {
   margin: 0;
   width: 100%;
 }
+.wraper{
+    overflow-x: hidden;
+}
