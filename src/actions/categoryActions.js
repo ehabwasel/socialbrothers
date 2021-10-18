@@ -1,14 +1,14 @@
-import axios from 'axios';
+import axios from "axios";
 import {
   CATEGORY_LIST_REQUEST,
   CATEGORY_LIST_SUCCESS,
   CATEGORY_LIST_FAIL,
-} from '../constants/constants';
+} from "../constants/constants";
 
 export const listCategories = () => async (dispatch) => {
   try {
     dispatch({ type: CATEGORY_LIST_REQUEST });
-    const { data } = await axios.get('http://178.62.198.162/api/categories', {
+    const { data } = await axios.get("http://178.62.198.162/api/categories", {
       headers: {
         token: `${process.env.REACT_APP_SB_API_KEY}`,
       },

@@ -15,7 +15,6 @@ const Loader = () => {
     >
       <span className="sr-only"></span>
     </Spinner>
-    
   );
 };
 export default Loader;

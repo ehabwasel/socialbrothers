@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from "axios";
 import {
   POST_LIST_REQUEST,
   POST_LIST_SUCCESS,
@@ -6,7 +6,7 @@ import {
   POST_CREATE_REQUEST,
   POST_CREATE_SUCCESS,
   POST_CREATE_FAIL,
-} from '../constants/constants';
+} from "../constants/constants";
 
 export const createPost = (post) => async (dispatch, getState) => {
   try {
@@ -16,7 +16,7 @@ export const createPost = (post) => async (dispatch, getState) => {
 
     const config = {
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
         token: `${process.env.REACT_APP_SB_API_KEY}`,
       },
     };
