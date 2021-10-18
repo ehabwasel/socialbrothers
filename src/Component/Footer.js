@@ -2,9 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
   return (
-    // <footer>
-    //   <Row  className="  footer">Copyright &copy; Social Brothers - 2021</Row>
-    // </footer>
+   
     <footer>
      
        
