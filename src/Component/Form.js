@@ -34,7 +34,7 @@ const MessageForm = () => {
       setCategoryId();
       setContent("");
     }
-    alert("You Create new Post");
+    alert("Post Succesvol Aangemaakt");
   };
 
   const findCategoryId = (e) => {

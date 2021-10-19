@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import { Row, Col, Button } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { listPosts } from "../actions/postActions";
-import Blog from "../Component/BlogCard";
-import Message from "../Component/Message";
-import Loader from "../Component/Loader";
-import MessageForm from "../Component/Form";
+import Blog from "../component/BlogCard";
+import Message from "../component/Message";
+import Loader from "../component/Loader";
+import MessageForm from "../component/Form";
 
 const HomeScreen = () => {
   const dispatch = useDispatch();

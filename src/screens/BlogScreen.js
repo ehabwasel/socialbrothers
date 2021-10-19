@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import { Row, Col } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { listPosts } from "../actions/postActions";
-import Blog from "../Component/BlogCard";
-import Message from "../Component/Message";
-import Loader from "../Component/Loader";
-import Paginate from "../Component/Pagination";
+import Blog from "../component/BlogCard";
+import Message from "../component/Message";
+import Loader from "../component/Loader";
+import Paginate from "../component/Pagination";
 
 const BlogScreen = ({ match }) => {
   const pageNumber = match.params.pageNumber || 1;

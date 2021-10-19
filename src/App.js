@@ -1,9 +1,9 @@
 import "./index.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "./Component/Header";
+import Header from "./component/Header";
 import HomeScreen from "./screens/HomeScreen";
 import BlogScreen from "./screens/BlogScreen";
-import Footer from "./Component/Footer";
+import Footer from "./component/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
