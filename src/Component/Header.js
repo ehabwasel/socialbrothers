@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import { Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import logo from '../img/SBlogo.svg'
 
 const Header = () => {
   const [hide, setHide] = useState(false);
@@ -11,7 +12,7 @@ const Header = () => {
         <img
           className="brand-image"
           alt="Social Brothers Logo"
-          src="https://socialbrothers.nl/wp-content/themes/social_brothers/assets/SBlogo.svg"
+          src={logo}
         />
       </Navbar.Brand>
 
