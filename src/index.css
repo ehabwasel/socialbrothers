@@ -141,3 +141,11 @@ ul li a:hover {
 .wraper {
   overflow-x: hidden;
 }
+
+.blogImageCard {
+  height: 30% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
