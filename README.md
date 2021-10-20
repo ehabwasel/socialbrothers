@@ -71,8 +71,7 @@ You can find the API on this location: http://178.62.198.162/api/.
     ├── setupTests.js
     └── store.js                             =====>     ##  REdux store
 ```     
-
-      <h2 align="center" >	:warning: 🔐 	🔐 Important :key: Steps to run the App</h2>
+<h2 align="center" >	:warning: 🔐 	🔐 Important :key: Steps to run the App</h2>
       <ul>
                  <h3 style="color: green"> Because of API Security Restrictions we can't run the App on the browser until cancel the browser securty wall </h3>
        <table>
