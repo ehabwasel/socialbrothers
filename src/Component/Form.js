@@ -37,12 +37,13 @@ const MessageForm = () => {
     alert("Post Succesvol Aangemaakt");
   };
 
-  const findCategoryId = (e) => {
-    const selectedCategory = categories.find(
-      (category) => e.target.value === category.name
-    );
-    setCategoryId(selectedCategory.id);
-  };
+  // const findCategoryId = (e) => {
+  //   const selectedCategory = categories.find(
+  //     (category) => e.target.value === category.name
+  //   );
+  //   setCategoryId(selectedCategory.id);
+  //   console.log(selectedCategory);
+  // };
 
   useEffect(() => {
     dispatch(listCategories());
@@ -79,13 +80,19 @@ const MessageForm = () => {
                 <Form.Control
                   as="select"
                   defaultValue="Geen categorie"
-                  onChange={(e) => findCategoryId(e)}
+                  onChange={(e) =>
+                    setCategoryId(e.target.options.selectedIndex)
+                  }
                 >
                   <option disabled={true}>Geen categorie</option>
                   {categories &&
                     categories.length > 0 &&
                     categories.map((category) => {
-                      return <option key={category.id}>{category.name}</option>;
+                      return (
+                        <option key={category.id} id={category.id}>
+                          {category.name}
+                        </option>
+                      );
                     })}
                 </Form.Control>
               )}
