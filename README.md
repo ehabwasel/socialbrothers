@@ -4,7 +4,7 @@
   <a href="https://socialbrothersehab.netlify.app/ ">
    <img src="https://socialbrothers.nl/wp-content/themes/social_brothers/assets/SBlogo.svg" alt="Logo" width="300" height="100">
 <h2 align="center"> Social Brothers 	:bow_and_arrow: ⚔️</h2>
-<p align="center"> :pushpin: Please  Cick on image to find the live demo 	:shield: :rocket:	:rocket: </p>
+<p align="center"> :pushpin: Please  Cick :shield: :rocket:	:rocket: </p>
     <p align="center">  <code><img width="15%" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"></code>
     <code><img width="15%" src="https://github.com/prplx/svg-logos/blob/master/svg/redux.svg"></code>
   <code><img width="15%" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"></code></p>
@@ -26,8 +26,53 @@ You can find the API on this location: http://178.62.198.162/api/.
           <p>POST /posts (title: string, content: string, category_id: number)</p>
            <p>you can get the posts according to the number if page you can also Create new post by using the form </p>
         </li>
-      </ul>
-       <h2 align="center" >	:warning: 🔐 	🔐 Important :key: Steps to run the App</h2>
+         </ul>
+      
+ ### Structure 
+``` 
+├── README.md
+├── package-lock.json
+├── package.json
+├── public                                         ##static files 
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+└── src
+    ├── App.js                                     
+    ├── actions                             =====>      ##REdux Actions
+    │   ├── categoryActions.js              =====>       Get categoryActions
+    │   └── postActions.js                  =====>       Get/Post postActions
+    ├── component
+    │   ├── BlogCard.js
+    │   ├── Footer.js
+    │   ├── Form.js
+    │   ├── Header.js                       =====>       ## App components
+    │   ├── Loader.js
+    │   ├── Message.js
+    │   └── Pagination.js
+    ├── constants                           =====>       ## All REdux constants                   
+    │   └── constants.js                     
+    ├── img                                 =====>       ## Header Img
+    │   ├── SBlogo.svg
+    │   └── background.png
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── reducers                             =====>      ##REdux reducers
+    │   ├── categoryReducers.js
+    │   └── postReducers.js
+    ├── reportWebVitals.js
+    ├── screens                              =====>     ## Main  screens
+    │   ├── BlogScreen.js
+    │   └── HomeScreen.js     
+    ├── setupTests.js
+    └── store.js                             =====>     ##  REdux store
+```     
+
+      <h2 align="center" >	:warning: 🔐 	🔐 Important :key: Steps to run the App</h2>
       <ul>
                  <h3 style="color: green"> Because of API Security Restrictions we can't run the App on the browser until cancel the browser securty wall </h3>
        <table>
@@ -37,7 +82,7 @@ You can find the API on this location: http://178.62.198.162/api/.
 
   </tr>
 </table>
- <h2> :point_right:	:footprints: To Sove this problem follow the Steps</h2>
+ <h2> :point_right:	:footprints: To Solve this problem follow the Steps</h2>
         
 
  https://user-images.githubusercontent.com/72751605/138002083-f06afa38-9d4b-4993-a6d6-4a04cca906b4.mp4 
