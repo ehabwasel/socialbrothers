@@ -33,7 +33,7 @@ You can find the API on this location: http://178.62.198.162/api/.
 ├── README.md
 ├── package-lock.json
 ├── package.json
-├── public                                         ##static files 
+├── public                                  =====>       ##static files 
 │   ├── favicon.ico
 │   ├── index.html
 │   ├── logo192.png
