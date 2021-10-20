@@ -24,7 +24,7 @@ You can find the API on this location: http://178.62.198.162/api/.
 <p>GET /posts?page={pageNr}</p>
 <p>GET /categories</p>
           <p>POST /posts (title: string, content: string, category_id: number)</p>
-           <p>you can get the posts according to the number if page you can also Create new post by using the form </p>
+           <p>you can get the posts according to the page number  also Create new post by using the form </p>
         </li>
          </ul>
       
