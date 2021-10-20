@@ -84,7 +84,11 @@ You can find the API on this location: http://178.62.198.162/api/.
  <h2> :point_right:	:footprints: To Solve this problem follow the Steps</h2>
         
 
- https://user-images.githubusercontent.com/72751605/138002083-f06afa38-9d4b-4993-a6d6-4a04cca906b4.mp4 
+
+https://user-images.githubusercontent.com/72751605/138109734-56cc412a-91e4-466f-83b3-67746b4a4f55.mp4
+
+
+ 
         
  <ul><li> First in  the top left of the page click on the lock </li><li>go to the site settings</li><li>scroll down until the Insecure content Change it fron block to Allow them Reload the page</li></ul>
      <table>
@@ -108,7 +112,10 @@ You can find the API on this location: http://178.62.198.162/api/.
       </ul>
      
 
-https://user-images.githubusercontent.com/72751605/138001508-2610fc62-c239-4c0a-b573-6c626fa68a23.mp4
+
+https://user-images.githubusercontent.com/72751605/138108979-5ba14db5-5f8b-45ca-b610-09f778f1dabe.mp4
+
+
 
 
   </ol>
