@@ -90,7 +90,8 @@ https://user-images.githubusercontent.com/72751605/138109734-56cc412a-91e4-466f-
 
  
         
- <ul><li> First in  the top left of the page click on the lock </li><li>go to the site settings</li><li>scroll down until the Insecure content Change it fron block to Allow them Reload the page</li></ul>
+ <ul>
+   <li> First in  the top left of the page click on the lock </li><li>go to the site settings</li><li>scroll down until the Insecure content Change it fron block to Allow them Reload the page</li></ul>
      <table>
   <tr >
           <td valign="top"> <img width="338" alt="Screen Shot 2021-10-19 at 11 33 58 PM" src="https://user-images.githubusercontent.com/72751605/137995164-91ce508d-926a-4766-a446-a49333a391f0.png">
@@ -109,14 +110,9 @@ https://user-images.githubusercontent.com/72751605/138109734-56cc412a-91e4-466f-
 </table>
        <h4> :slightly_smiling_face::slightly_smiling_face: Finally you can Run the App Correctly </h4>
        </li>
-      </ul>
-     
+ 
 
-
-https://user-images.githubusercontent.com/72751605/138108979-5ba14db5-5f8b-45ca-b610-09f778f1dabe.mp4
-
-
-
+   https://user-images.githubusercontent.com/72751605/138108979-5ba14db5-5f8b-45ca-b610-09f778f1dabe.mp4  
 
   </ol>
 </details>
