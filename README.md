@@ -19,7 +19,7 @@
       <ul>
         <li>   SocialBrothers Project Based on React Redux for Create Home Screen and Blog Screen Using The API
 You can find the API on this location: http://178.62.198.162/api/. 
-You need to provide a ‘token’-header with the value of "xxx" for authentication. This means this is not a bearer token or anything. The API has the next endpoints
+
 
 <p>GET /posts?page={pageNr}</p>
 <p>GET /categories</p>
